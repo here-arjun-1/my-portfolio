@@ -40,9 +40,10 @@
           </p>
           <div class="hero-buttons">
             <a href="#projects" class="primary-btn"> View My Work → </a>
-            <a href="#contact" class="secondary-btn"> Contact Me </a>
+            <a href="contact.html" class="secondary-btn"> Contact Me </a>
           </div>
           <div class="socials">
+            <span><img src="network.png" style="width: 10px; height: 10px;"></span>
             <a href="https://github.com/here-arjun-1">GitHub</a>
             <a href="https://www.linkedin.com/in/arjun-vyas-100b07376/">LinkedIn</a>
             <a href="https://www.instagram.com/rajput_arjun1/">Instagram</a>
@@ -203,7 +204,8 @@
             </div>
           </article>
         </div>
-
+      </section>
+      
       <section class="section experience">
         <div class="section-heading">
           <p>MY JOURNEY</p>
@@ -254,18 +256,89 @@
       </section>
 
       <!-- CONTACT -->
-      <section id="contact" class="section contact">
-        <div class="contact-box">
-          <p class="small-text">HAVE A PROJECT IN MIND?</p>
-          <h2>
-            Let's build something
-            <span>great.</span>
-          </h2>
-          <p>I'm always open to discussing new projects, collaborations andopportunities.
-          </p>
-          <a href="#" class="primary-btn">Get In Touch -></a>
+<section id="contact" class="section contact">
+  <div class="contact-box">
+    <p class="small-text">HAVE A PROJECT IN MIND?</p>
+    <h2>
+      Let's build something
+      <span>great.</span>
+    </h2>
+    <p>I'm always open to discussing new projects, collaborations and opportunities.
+    </p>
+    <a href="#contact" class="primary-btn">Get In Touch -></a>
+    <div class="contact-details">
+      <div class="contact-detail">
+        <span>✉</span>
+        <div>
+          <small>Email</small>
+          <p>arjunvyas2006@gmail.com</p>
         </div>
-      </section>
+      </div>
+
+      <div class="contact-detail">
+        <span>
+          <img src="location.png" style="height: 10px; width: 10px;" alt="">
+        </span>
+        <div>
+          <small>Location</small>
+          <p>India</p>
+        </div>
+      </div>
+
+      <div class="contact-detail">
+        <span><img src="network.png" style="height: 10px; width: 10px;"></span>
+        <div>
+          <small>Social</small>
+          <p>GitHub . LinkedIn . Instagram</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- connect form -->
+
+    <form action="" class="contact-form">
+      <div class="form-row">
+
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+        </div>
+
+      </div>
+
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input
+          type="text"
+          name="subject"
+          id="subject"
+          placeholder="What's the SUBJECT."
+          required
+        >
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea name="message "id="message" placeholder="DROP YOUR MESSAGE!" required></textarea>
+      </div>
+
+      <button type="submit" class="submit-btn">Send Message
+        <span>
+          <img src="send.png" style="height: 10px; width: 10px;" alt="">
+        </span>
+      </button>
+
+    </form>
+
+  </div>
+
+</section>
     </main>
     
     <!-- FOOTER -->
